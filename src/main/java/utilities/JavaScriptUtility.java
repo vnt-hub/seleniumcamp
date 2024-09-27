@@ -17,4 +17,5 @@ public class JavaScriptUtility extends Utility{
         String jsScript = "arguments[0].click()";
         ((JavascriptExecutor)driver).executeScript(jsScript, element);
     }
+
 }
